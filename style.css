@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    position: relative;
+}
+
+@font-face {
+    src: url(Bilder-Material/Inter.ttf);
+    font-family: Standard;
+}
+
+* {
+    font-family: Standard;
+}
+
+#Pagecontainer {
+    max-width: 1000px;
+    margin: 200px auto 0px;
+}
+
+/* Completed Fixed Nav */
+
+#navcontainer {
+    margin-left: 12px;
+    margin-right: 12px;
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    
+    border-bottom: 1px solid #e5e5e5;
+    padding: 12px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navlink {
+    padding: 5px;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: 550;
+}
+
+.navlink:hover {
+    background-color: rgb(233, 233, 233);
+    border-radius: 5px;
+}
+
+#navleft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#navcontainer img {
+    height: 23px;
+    margin-right: 10px;
+}
+
+#navright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#streck {
+    width: 1px;
+    height: 18px;
+    background-color: rgb(187, 187, 187);
+}
+
+
+#barkyknapp {
+    text-decoration: none;
+    color: white;
+    padding: 5px 15px 5px 15px;
+    background-color: #050505;
+    border-radius: 5px;
+}
+
+#barkyknapp:hover {
+    opacity: .8;
+}
