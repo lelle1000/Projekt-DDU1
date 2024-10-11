@@ -180,3 +180,61 @@ body {
 
     color: #7f7f7f;
 }
+
+/* Barkies */
+
+#barkies {
+    display: flex;
+
+    flex-direction: column;
+}
+
+#barkiesimg{
+    width: 100%;
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.1);
+    margin: 40px 0px 40px 0px;
+}
+
+#barkiesparagraph {
+    margin-bottom: 20px;
+    text-align: center;
+    
+
+}
+
+#barkiesparagraph p {
+    margin: 0;
+    color: #a0a0a0;
+    font-size: 37px;
+    font-weight: 600;
+}
+
+#barkley {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    gap: 5px;
+}
+
+#barkley img{
+    height: 60px;
+}
+
+#barkleytext {
+    text-align: left;
+}
+
+#barkleytext h3{
+    margin: 0;
+    padding: 2px;
+    font-weight: 450;
+}
+
+#barkleytext p {
+    margin: 0;
+    padding: 2px;
+    color: #7f7f7f;
+}
