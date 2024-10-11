@@ -14,7 +14,7 @@ body {
 
 #Pagecontainer {
     max-width: 1000px;
-    margin: 200px auto 0px;
+    margin: 150px auto 0px;
 }
 
 /* Completed Fixed Nav */
@@ -74,7 +74,6 @@ body {
     background-color: rgb(187, 187, 187);
 }
 
-
 #barkyknapp {
     text-decoration: none;
     color: white;
@@ -86,3 +85,37 @@ body {
 #barkyknapp:hover {
     opacity: .8;
 }
+
+/* Team-Hero Container */
+
+#teamherocontainer {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 10px
+}
+
+#teamherocontainer img {
+    height: 300px;
+}
+
+#teamherotext a {
+    padding: 8px 12px 8px 12px;
+}
+
+#teamherotext h1 {
+    font-size: 50px;
+    font-weight: 800;
+
+    margin: 0;
+}
+
+#teamherotext p {
+    font-size: 19px;
+    padding: 0px 0px 20px 0px;
+
+    color: #7f7f7f;
+}
+
