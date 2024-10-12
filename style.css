@@ -145,7 +145,6 @@ body {
 
     padding: 20px;
 
-
     gap: 25px; 
 }
 
@@ -170,7 +169,7 @@ body {
 }
 
 #furryfriendstext h2 {
-    font-size: 37px;
+    font-size: 38px;
     margin: 0;
 }
 
@@ -189,7 +188,7 @@ body {
     flex-direction: column;
 
     margin-top: 40px;
-    margin-bottom: 60px;
+    margin-bottom: 100px;
 }
 
 #barkiesimg{
@@ -245,11 +244,12 @@ body {
 
 #onlinekennel {
     max-width: 500px;
+
 }
 
-#onlinekennel h1 {
-    font-size: 37px;
-    margin: 0;
+#onlinekennel h2 {
+    font-size: 38px;
+    margin: 0px;
 }
 
 #onlinekennel p {
@@ -267,7 +267,7 @@ body {
     flex-direction: column;
 
     margin-top: 40px;
-    margin-bottom: 60px;
+    margin-bottom: 100px;
 }
 
 #dogworldimg{
@@ -314,6 +314,88 @@ body {
 }
 
 #rufustext p {
+    margin: 0;
+    padding: 2px;
+    color: #7f7f7f;
+}
+
+/* Meeting Barks */
+
+#meetingcontainer {
+    margin: 0;
+}
+
+#meetingtext {
+    max-width: 500px;
+}
+
+#meetingtext h2 {
+    font-size: 38px;
+    margin: 0;
+}
+
+#meetingtext p {
+    margin: 8px 0px 0px 0px;
+    padding-right: 5px;
+
+    color: #7f7f7f;
+}
+
+/* Dogeting Wiki */
+
+#dogetingwiki {
+    display: flex;
+
+    flex-direction: column;
+
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+#dogetingwikiimg{
+    width: 100%;
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.1);
+    margin: 0px 0px 40px 0px;
+}
+
+#dogetingwikiparagraph {
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+
+#dogetingwikiparagraph p {
+    margin: 0;
+    color: #a0a0a0;
+    font-size: 37px;
+    font-weight: 600;
+}
+
+#bella {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    gap: 5px;
+}
+
+#bella img{
+    height: 60px;
+}
+
+#bellatext {
+    text-align: left;
+}
+
+#bellatext h3{
+    margin: 0;
+    padding: 2px;
+    font-weight: 450;
+}
+
+#bellatext p {
     margin: 0;
     padding: 2px;
     color: #7f7f7f;
