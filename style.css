@@ -187,19 +187,21 @@ body {
     display: flex;
 
     flex-direction: column;
+
+    margin-top: 40px;
+    margin-bottom: 60px;
 }
 
 #barkiesimg{
     width: 100%;
     box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.1);
-    margin: 40px 0px 40px 0px;
+    margin: 0px 0px 40px 0px;
 }
 
 #barkiesparagraph {
     margin-bottom: 20px;
     text-align: center;
     
-
 }
 
 #barkiesparagraph p {
@@ -234,6 +236,84 @@ body {
 }
 
 #barkleytext p {
+    margin: 0;
+    padding: 2px;
+    color: #7f7f7f;
+}
+
+/* Your online kennel */
+
+#onlinekennel {
+    max-width: 500px;
+}
+
+#onlinekennel h1 {
+    font-size: 37px;
+    margin: 0;
+}
+
+#onlinekennel p {
+    margin: 8px 0px 0px 0px;
+    padding-right: 5px;
+
+    color: #7f7f7f;
+}
+
+/* Dog World 2024 */
+
+#dogworld {
+    display: flex;
+
+    flex-direction: column;
+
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+#dogworldimg{
+    width: 100%;
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.1);
+    margin: 0px 0px 40px 0px;
+}
+
+#dogworldparagraph {
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+
+#dogworldparagraph p {
+    margin: 0;
+    color: #a0a0a0;
+    font-size: 37px;
+    font-weight: 600;
+}
+
+#rufus {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    gap: 5px;
+}
+
+#rufus img{
+    height: 60px;
+}
+
+#rufustext {
+    text-align: left;
+}
+
+#rufustext h3{
+    margin: 0;
+    padding: 2px;
+    font-weight: 450;
+}
+
+#rufustext p {
     margin: 0;
     padding: 2px;
     color: #7f7f7f;
