@@ -495,6 +495,9 @@ body {
     gap: 30px;
 
     text-align: center;
+
+    margin-bottom: 150px;
+
 }
 
 #learnmorecontainer div {
@@ -503,6 +506,7 @@ body {
 
 #learnmorecontainer p {
     color: #7f7f7f;
+    font-size: 18px;
 }
 
 #learnmorecontainer a {
@@ -519,6 +523,8 @@ body {
 #seewhy {
     text-align: center;
 
+    font-size: 24px;
+
     margin-top: 100px;
     margin-bottom: 50px;
 }
@@ -528,10 +534,71 @@ body {
 #leadercontainer {
     display: flex;
 
-    gap: 10px;
+    justify-content: center;
+    align-items: center;
+
+    gap: 20px;
 
 }
 
 #leadercontainer img {
-    height: 200px;
+    height: 180px;
 }
+
+#leadercontainer div h1{
+    font-size: 26px;
+}
+
+#leadercontainer div {
+    font-size: 18px;
+}
+
+#underline {
+    text-decoration: underline;
+}
+
+/* Procent Container */
+
+#procentcontainer {
+    display: flex;
+    margin-top: 50px;
+    
+}
+
+#procentcontainer div {
+    text-align: center;
+    flex-grow: 1;
+}
+
+#procentcontainer h1 {
+    font-size: 45px;
+    color: #7f7f7f;
+    margin: 0;
+}
+
+#procentcontainer p {
+    color: #7f7f7f
+}
+
+/* Try Barky Today */
+
+#trybarkytoday {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#trybarkytoday h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+#trybarkytoday p {
+    color: #7f7f7f;
+}
+
