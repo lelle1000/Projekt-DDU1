@@ -464,3 +464,52 @@ body {
 .graytext {
     color: #7f7f7f;
 }
+
+/* Built for every team */
+
+#builtfor {
+    text-align: center;
+    margin: 50px 0px 50px 0px;
+
+}
+
+#builtfor h1 {
+    font-size: 36px;
+
+    margin: 0;
+}
+
+#builtfor p {
+    color: #7f7f7f;
+    padding-top: 10px;
+    margin: 0;
+}
+
+/* Learn More */
+
+#learnmorecontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 30px;
+
+    text-align: center;
+}
+
+#learnmorecontainer div {
+    padding: 0px 20px 0px 20px;
+}
+
+#learnmorecontainer p {
+    color: #7f7f7f;
+}
+
+#learnmorecontainer a {
+    color: #050505;
+}
+
+#bordersides {
+    border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+}
