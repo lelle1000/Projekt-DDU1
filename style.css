@@ -39,12 +39,17 @@ body {
     align-items: center;
 }
 
+
 .navlink {
     padding: 5px;
     font-size: 15px;
     text-decoration: none;
     color: black;
     font-weight: 550;
+}
+
+.navlink img{
+    margin-left: 5px;
 }
 
 .navlink:hover {
@@ -59,7 +64,7 @@ body {
     gap: 10px;
 }
 
-#navcontainer img {
+#navbarky {
     height: 23px;
     margin-right: 10px;
 }
@@ -457,6 +462,11 @@ body {
     justify-content: space-between;
 }
 
+#freeplanbox img {
+    align-self: center;
+    height: 20px;
+}
+
 #plantextboxlast {
     border-bottom: none;
 }
@@ -602,3 +612,73 @@ body {
     color: #7f7f7f;
 }
 
+/* Footer */
+
+footer {
+    max-width: 1200px;
+    margin: 80px auto 80px auto;
+
+    padding-top: 80px;
+
+    border-top: 1px solid #e5e5e5;
+    display: grid;
+    grid-template-columns: 300px 200px 200px 200px 200px;
+    grid-template-rows: auto;
+
+    gap: 40px;
+
+}
+
+
+
+#footersymbols {
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-start;
+    text-align: left;
+
+}
+
+#barkylogo {
+    height: 40px;
+    margin-bottom: 35px;
+}
+
+#sharematerial img{
+    height: 30px;
+    padding-right: 5px;
+}
+
+#footerlogotext {
+    margin-top: 50px;
+    text-align: left;
+    font-size: 15px;
+}
+
+#footerlogotext p{
+    padding-bottom: 20px;
+}
+
+.footerlinks {
+    display: flex;
+
+    flex-direction: column;
+
+    text-align: left;
+
+    gap: 15px;
+}
+
+.footerlinks a{
+
+    text-decoration: none;
+    color: #a0a0a0;
+    font-weight: 500;
+}
+
+.footerlinks p{
+    margin: 0;
+
+    font-weight: 600;
+}
