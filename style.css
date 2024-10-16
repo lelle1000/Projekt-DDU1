@@ -121,7 +121,7 @@ body {
 }
 
 #teamherotext p {
-    font-size: 19px;
+    font-size: 18px;
     padding: 0px 0px 20px 0px;
 
     color: #7f7f7f;
@@ -175,13 +175,14 @@ body {
 }
 
 #furryfriendstext h2 {
-    font-size: 38px;
+    font-size: 36px;
     margin: 0;
 }
 
 #furryfriendstext p {
     margin: 8px 0px 0px 0px;
     padding-right: 5px;
+    font-size: 18px;
 
     color: #7f7f7f;
 }
@@ -212,8 +213,9 @@ body {
 #barkiesparagraph p {
     margin: 0;
     color: #a0a0a0;
-    font-size: 37px;
+    font-size: 36px;
     font-weight: 600;
+    padding: 5px;
 }
 
 #barkley {
@@ -238,10 +240,12 @@ body {
     margin: 0;
     padding: 2px;
     font-weight: 450;
+    font-size: 16px;
 }
 
 #barkleytext p {
     margin: 0;
+    font-size: 13px;
     padding: 2px;
     color: #7f7f7f;
 }
@@ -254,7 +258,7 @@ body {
 }
 
 #onlinekennel h2 {
-    font-size: 38px;
+    font-size: 36px;
     margin: 0px;
 }
 
@@ -291,7 +295,7 @@ body {
 #dogworldparagraph p {
     margin: 0;
     color: #a0a0a0;
-    font-size: 37px;
+    font-size: 36px;
     font-weight: 600;
 }
 
@@ -317,11 +321,13 @@ body {
     margin: 0;
     padding: 2px;
     font-weight: 450;
+    font-size: 16px;
 }
 
 #rufustext p {
     margin: 0;
     padding: 2px;
+    font-size: 13px;
     color: #7f7f7f;
 }
 
@@ -373,7 +379,7 @@ body {
 #dogetingwikiparagraph p {
     margin: 0;
     color: #a0a0a0;
-    font-size: 37px;
+    font-size: 36px;
     font-weight: 600;
 }
 
@@ -399,12 +405,14 @@ body {
     margin: 0;
     padding: 2px;
     font-weight: 450;
+    font-size: 16px;
 }
 
 #bellatext p {
     margin: 0;
     padding: 2px;
     color: #7f7f7f;
+    font-size: 13px;
 }
 
 /* Free Plan Container */
@@ -433,7 +441,7 @@ body {
 }
 
 #freeplantext h1 {
-    font-size: 38px;
+    font-size: 36px;
     margin: 0;
 }
 
@@ -572,7 +580,6 @@ body {
 #procentcontainer {
     display: flex;
     margin-top: 50px;
-    
 }
 
 #procentcontainer div {
@@ -581,7 +588,7 @@ body {
 }
 
 #procentcontainer h1 {
-    font-size: 45px;
+    font-size: 53px;
     color: #7f7f7f;
     margin: 0;
 }
@@ -626,10 +633,7 @@ footer {
     grid-template-rows: auto;
 
     gap: 40px;
-
 }
-
-
 
 #footersymbols {
     display: flex;
@@ -679,6 +683,10 @@ footer {
 
 .footerlinks p{
     margin: 0;
-
+    color: #121212;
     font-weight: 600;
+}
+
+.footerlinks a:hover {
+    text-decoration: underline;
 }
