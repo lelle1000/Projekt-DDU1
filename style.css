@@ -176,55 +176,48 @@ body {
     gap: 35px;
 }
 
-/* Furry Friends Text */ 
+/* Marketing Header */ 
 
-#furryfriendscontainer {
-    margin: 0;
-}
-
-#furryfriendstext {
+.marketing-container {
     max-width: 500px;
 }
 
-#furryfriendstext h2 {
+.marketing-header {
     font-size: 36px;
     margin: 0;
 
     color: var(--clr--lightblack);
 }
 
-#furryfriendstext p {
+.marketing-text {
     margin: 8px 0px 0px 0px;
-    padding-right: 5px;
-    font-size: 18px;
+    font-size: 17px;
 
     color: var(--clr--gray);
 }
 
-/* Barkies */
+/* Pictures */
 
-#barkies {
+.picture-container {
     display: flex;
-
     flex-direction: column;
 
     margin-top: 40px;
     margin-bottom: 100px;
 }
 
-#barkiesimg{
+.picture-img {
     width: 100%;
     box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.1);
     margin: 0px 0px 40px 0px;
 }
 
-#barkiesparagraph {
+.picture-paragraph {
     margin-bottom: 20px;
     text-align: center;
-    
 }
 
-#barkiesparagraph p {
+.picture-text {
     margin: 0;
     color: var(--clr--lightgray);
     font-size: 36px;
@@ -232,25 +225,25 @@ body {
     padding: 5px;
 }
 
-#barkley {
+.people-presentation {
     display: flex;
-
     justify-content: center;
     align-items: center;
     text-align: center;
-
     gap: 5px;
 }
 
-#barkley img{
+/* People */
+
+.people-img {
     height: 60px;
 }
 
-#barkleytext {
+.people {
     text-align: left;
 }
 
-#barkleytext h3{
+.people-name {
     margin: 0;
     padding: 2px;
     font-weight: 450;
@@ -258,184 +251,13 @@ body {
     color: var(--clr--lightblack);
 }
 
-#barkleytext p {
+.people-text {
     margin: 0;
     font-size: 13px;
     padding: 2px;
     color: var(--clr--lightgray);
 }
 
-/* Your online kennel */
-
-#onlinekennel {
-    max-width: 500px;
-
-}
-
-#onlinekennel h2 {
-    font-size: 36px;
-    margin: 0px;
-    color: var(--clr--lightblack);
-}
-
-#onlinekennel p {
-    margin: 8px 0px 0px 0px;
-    padding-right: 5px;
-
-    color: var(--clr--gray);
-}
-
-/* Dog World 2024 */
-
-#dogworld {
-    display: flex;
-
-    flex-direction: column;
-
-    margin-top: 40px;
-    margin-bottom: 100px;
-}
-
-#dogworldimg{
-    width: 100%;
-    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.1);
-    margin: 0px 0px 40px 0px;
-}
-
-#dogworldparagraph {
-    margin-bottom: 20px;
-    text-align: center;
-    
-}
-
-#dogworldparagraph p {
-    margin: 0;
-    color: #a0a0a0;
-    font-size: 36px;
-    font-weight: 600;
-
-    color: var(--clr--lightgray);
-}
-
-#rufus {
-    display: flex;
-
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-
-    gap: 5px;
-}
-
-#rufus img{
-    height: 60px;
-}
-
-#rufustext {
-    text-align: left;
-}
-
-#rufustext h3{
-    margin: 0;
-    padding: 2px;
-    font-weight: 450;
-    font-size: 16px;
-    color: var(--clr--lightblack);
-}
-
-#rufustext p {
-    margin: 0;
-    padding: 2px;
-    font-size: 13px;
-    color: var(--clr--lightgray);
-}
-
-/* Meeting Barks */
-
-#meetingcontainer {
-    margin: 0;
-}
-
-#meetingtext {
-    max-width: 500px;
-}
-
-#meetingtext h2 {
-    font-size: 38px;
-    margin: 0;
-    color: var(--clr--lightblack);
-
-}
-
-#meetingtext p {
-    margin: 8px 0px 0px 0px;
-    padding-right: 5px;
-
-    color: var(--clr--gray);
-}
-
-/* Dogeting Wiki */
-
-#dogetingwiki {
-    display: flex;
-
-    flex-direction: column;
-
-    margin-top: 40px;
-    margin-bottom: 100px;
-}
-
-#dogetingwikiimg{
-    width: 100%;
-    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.1);
-    margin: 0px 0px 40px 0px;
-}
-
-#dogetingwikiparagraph {
-    margin-bottom: 20px;
-    text-align: center;
-    
-}
-
-#dogetingwikiparagraph p {
-    margin: 0;
-    color: var(--clr--lightgray);
-    font-size: 36px;
-    font-weight: 600;
-}
-
-#bella {
-    display: flex;
-
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-
-    gap: 5px;
-}
-
-#bella img{
-    height: 60px;
-}
-
-#bellatext {
-    text-align: left;
-}
-
-#bellatext h3{
-    margin: 0;
-    padding: 2px;
-    font-weight: 450;
-    font-size: 16px;
-    color: var(--clr--lightblack);
-}
-
-#bellatext p {
-    margin: 0;
-    padding: 2px;
-    color: var(--clr--lightgray);
-    font-size: 13px;
-}
 
 /* Free Plan Container */
 
