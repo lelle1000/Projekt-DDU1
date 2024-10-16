@@ -621,6 +621,15 @@ body {
     margin: 0;
 }
 
+#streck1 {
+    border-left: 1px solid var(--clr--whitegray);
+}
+
+#streck2 {
+    border-left: 1px solid var(--clr--whitegray);
+    border-right: 1px solid var(--clr--whitegray);
+}
+
 #procentcontainer p {
     color: var(--clr--gray);
 }
@@ -651,12 +660,16 @@ body {
 /* Footer */
 
 footer {
+    border-top: 1px solid var(--clr--whitegray);
+    margin: 0px 15px 0px 15px;
+}
+
+#footercontainer {
     max-width: 1200px;
     margin: 80px auto 80px auto;
 
-    padding-top: 80px;
+    padding-top: 40px;
 
-    border-top: 1px solid var(--clr--whitegray);
     display: grid;
     grid-template-columns: 300px 200px 200px 200px 200px;
     grid-template-rows: auto;
