@@ -95,15 +95,17 @@ body {
     background-color: var(--clr--whitegray);
 }
 
-#barkyknapp {
+/* Get Barky Free */
+
+.barkyknapp {
     text-decoration: none;
-    color: white;
+    color: var(--clr--white);
     padding: 8px 15px 8px 15px;
     background-color: var(--clr--black);
     border-radius: 5px;
 }
 
-#barkyknapp:hover {
+.barkyknapp:hover {
     opacity: .8;
 }
 
@@ -158,8 +160,9 @@ body {
 
 }
 
-#topcompany {
+#company {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 
@@ -168,20 +171,10 @@ body {
     gap: 25px; 
 }
 
-#bottomcompany {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    padding: 20px;
-
-    gap: 35px;
-}
-
 /* Marketing Header */ 
 
 .marketing-container {
-    max-width: 500px;
+    max-width: 45%;
 }
 
 .marketing-header {
@@ -326,7 +319,7 @@ body {
 }
 
 .graytext {
-    color: var(--clr--gray);
+    color: var(--clr--lighterdarkgray);
 }
 
 /* Built for every team */
@@ -375,6 +368,7 @@ body {
 
 #learnmorecontainer a {
     color: var(--clr--lightblack);
+    font-weight: 550;
 }
 
 #bordersides {
@@ -510,7 +504,6 @@ footer {
 
     align-items: flex-start;
     text-align: left;
-
 }
 
 #barkylogo {
@@ -534,11 +527,19 @@ footer {
     color: var(--clr--lighterdarkgray);
 }
 
+#footerlinkscontainer {
+    grid-column: span 4;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
 .footerlinks {
     display: flex;
     flex-direction: column;
     text-align: left;
     gap: 15px;
+
 }
 
 .footerlinks a{
@@ -564,7 +565,13 @@ footer {
     display: none;
 }
     
+#mobilhamburgerimg:hover {
+    background-color: var(--clr--white);
+}
 
+#mobilvyfix {
+    display: none;
+}
 
 @media (max-width: 600px) {
 
@@ -577,22 +584,114 @@ footer {
         justify-content: space-between;
     }
 
-    #mobilhamburger {
-        display: flex;
-        padding: 5px 10px 5px;
-        border-radius: 5px;
-        margin-right: 10px;
-    }
-
-    #mobilhamburger img {
-        width: 20px;
-        height: 20px;
-    }
-
     #mobilnavbarky {
         height: 23px;
+        padding: 5px 10px 5px 10px;
     }
 
-    
-}
+    #mobilhamburgerimg{
+        width: 23px;
+        height: 23px;
+        padding: 5px 10px 5px 10px;
 
+        border-radius: 5px;
+    }
+
+    /* Page size */
+
+    #Pagecontainer {
+        max-width: 600px;
+        margin: 150px auto 0px;
+    }
+
+    body {
+        margin: 20px;
+    }
+
+    /* Team-Hero Container Mobil */
+
+    #teamherocontainer {
+        flex-direction: column-reverse;
+
+        text-align: center;
+    }
+
+    /* Companies Mobil */
+
+    #companycontainer {
+        margin: 80px 0px;
+    }
+
+    /* Marketing Mobil */
+
+    .marketing-container {
+        text-align: center;
+        margin: auto;
+        max-width: 100%;
+    }
+
+    .picture-text {
+        font-size: 30px;
+    }
+
+    /* Free Plan Text Mobil */
+
+    #freeplancontainer {
+        padding: 90px 0px;
+    }
+
+    #freeplantext {
+        max-width: 100%;
+    }
+
+    /* Learn More Mobil */
+
+    #learnmorecontainer {
+        flex-direction: column;
+    }
+
+    #bordersides {
+        border: none;
+    }
+
+    /* Leader Mobil */
+
+    #leadercontainer {
+        flex-direction: column;
+    }
+
+    #leadercontainer img{
+        margin: 35px 0px;
+    }
+
+    /* Procent Mobil */
+
+    #procentcontainer {
+        flex-direction: column;
+        margin: 0;
+    }
+
+
+    #streck1, #streck2 {
+        border: none;
+    }
+
+    /* Footer Mobil */
+
+    #footercontainer {
+        max-width: 600px;
+
+        display: flex;
+        flex-direction: column;
+
+        gap: 0px;
+    }
+
+    #footerlinkscontainer {
+        display: grid;
+
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+}
