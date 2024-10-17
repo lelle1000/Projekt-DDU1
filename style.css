@@ -31,9 +31,9 @@ body {
 }
 
 
-/* Completed Fixed Nav */
+/* Desktop Navigation */
 
-#navcontainer {
+#desktopnavcontainer {
     margin-left: 15px;
     margin-right: 15px;
 
@@ -77,7 +77,7 @@ body {
     gap: 10px;
 }
 
-#navbarky {
+#desktopnavbarky {
     height: 23px;
     margin-right: 15px;
 }
@@ -382,6 +382,10 @@ body {
     border-right: 1px solid var(--clr--whitegray);
 }
 
+#learnmorecontainer a:hover {
+    color: var(--clr--blue);
+}
+
 /* See Why */
 
 #seewhy {
@@ -553,3 +557,42 @@ footer {
 .footerlinks a:hover {
     text-decoration: underline;
 }
+
+/* Mobilvy */
+
+#mobilnavcontainer {
+    display: none;
+}
+    
+
+
+@media (max-width: 600px) {
+
+    #desktopnavcontainer {
+        display: none;
+    }
+
+    #mobilnavcontainer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #mobilhamburger {
+        display: flex;
+        padding: 5px 10px 5px;
+        border-radius: 5px;
+        margin-right: 10px;
+    }
+
+    #mobilhamburger img {
+        width: 20px;
+        height: 20px;
+    }
+
+    #mobilnavbarky {
+        height: 23px;
+    }
+
+    
+}
+
