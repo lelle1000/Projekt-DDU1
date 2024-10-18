@@ -23,6 +23,8 @@ body {
     --clr--whitegray: #e5e5e5;
     --clr--white: #f4f4f4;
     --clr--blue: #087fe7;
+
+    --clr--WHITEwhite: #ffffff;
 }
 
 /* Desktop fontsizes */
@@ -61,7 +63,7 @@ body {
     margin-left: 15px;
     margin-right: 15px;
 
-    background-color: white;
+    background-color: var(--clr--WHITEwhite);
 
     position: fixed;
     top: 0;
@@ -81,7 +83,7 @@ body {
     padding: 5px;
     font-size: var(--clr--15px);
     text-decoration: none;
-    color: black;
+    color: var(--clr--black);
     font-weight: 500;
 }
 
@@ -123,10 +125,11 @@ body {
 
 .barkyknapp {
     text-decoration: none;
-    color: white;
+    color: var(--clr--WHITEwhite);
     padding: 8px 15px 8px 15px;
     background-color: var(--clr--black);
     border-radius: 5px;
+    font-weight: 600;
 }
 
 .barkyknapp:hover {
@@ -202,7 +205,7 @@ body {
 }
 
 .marketing-header {
-    font-size: 36px;
+    font-size: var(--clr--45px);
     margin: 0;
 
     color: var(--clr--lightblack);
@@ -312,6 +315,7 @@ body {
     color: var(--clr--gray);
     padding-bottom: 5px;
     line-height: 1.5;
+    font-size: var(--clr--15px);
 }
 
 /* Free Plan Box */
@@ -622,7 +626,7 @@ footer {
         border-radius: 5px;
     }
 
-    /* Page size */
+    /* Mobil Page size */
 
     #Pagecontainer {
         max-width: 600px;
@@ -719,4 +723,151 @@ footer {
         grid-template-rows: 1fr 1fr;
     }
 
+}
+
+/*-----------------------------------------------VG EXTRA--------------------------------------------------------*/
+
+/* Surfplattavy */
+
+#surfplattanavcontainer {
+    display: none;
+}
+
+#surfplattahamburgerimg:hover {
+    background-color: var(--clr--white);
+    cursor: pointer;
+}
+
+
+@media (min-width: 601px) and (max-width: 1080px) {
+
+    #desktopnavcontainer {
+        display: none;
+    }
+
+    /* Surfplatta Page Size */
+
+     #Pagecontainer {
+        max-width: 1080px;
+        margin: 150px auto 0px;
+    }
+
+    body {
+        margin: 40px;
+    }
+
+    /* Surfplatta Navigation */
+
+    #surfplattanavcontainer {
+        margin-left: 15px;
+        margin-right: 15px;
+    
+        background-color: var(--clr--WHITEwhite);
+    
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        
+        border-bottom: 1px solid var(--clr--whitegray);
+    
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    #surfplattanavleft {
+        padding: 20px 20px 20px 0px;
+    }
+    
+    #surfplattanavright {
+        display: flex;
+        padding: 20px 0px 20px 20px;
+    
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    
+    }
+    
+    #surfplattanavbarky {
+        height: 23px;
+    }
+    
+    #surfplattanavknapp {
+        padding: 6px 15px;
+        font-weight: 600;
+    }
+    
+    #surfplattahamburgerimg {
+        height: 23px;
+        padding: 10px;
+    
+        border-radius: 5px;
+    }
+
+    /* Surfplatta Team-Hero Container */
+
+    #teamherocontainer {
+        flex-direction: column-reverse;
+
+        text-align: center;
+    }
+
+    #teamherotext p {
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
+    /* Marketing Surfplatta */
+
+    .picture-text {
+        font-size: var(--clr--45px);
+    }
+
+    /* Learn more Surfplatta */
+
+    #learnmorecontainer {
+        display: grid;
+
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    #bordersides {
+        border: none;
+    }
+
+    /* Procent Surfplatta */
+
+    #procentcontainer {
+        display: grid;
+
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+
+        gap: 25px;
+    }
+
+    #streck1, #streck2 {
+        border: none;
+    }
+
+    /* Surfplatta Footer */
+
+    #footercontainer {
+        max-width: 1080px;
+
+        display: flex;
+        flex-direction: column;
+
+        gap: 0px;
+    }
+
+    #footerlinkscontainer {
+        display: grid;
+
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
 }
