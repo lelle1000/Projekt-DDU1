@@ -25,6 +25,30 @@ body {
     --clr--blue: #087fe7;
 }
 
+/* Desktop fontsizes */
+
+:root {
+    --clr--12px: 12px;
+    --clr--12px: 13px;
+    --clr--13-5px: 13.5px;
+    --clr--14px: 14px;
+    --clr--15px: 15px;
+    --clr--18px: 18px;
+    --clr--24px: 24px;
+    --clr--26px: 26px;
+    --clr--36px: 36px;
+    --clr--45px: 45px;
+    --clr--53px: 53px;
+}
+
+/* Mobil fontsizes */
+
+:root {
+    --clr--30px: 30px;
+}
+
+
+
 #Pagecontainer {
     max-width: 1000px;
     margin: 150px auto 0px;
@@ -55,7 +79,7 @@ body {
 
 .navlink {
     padding: 5px;
-    font-size: 15px;
+    font-size: var(--clr--15px);
     text-decoration: none;
     color: black;
     font-weight: 500;
@@ -99,7 +123,7 @@ body {
 
 .barkyknapp {
     text-decoration: none;
-    color: var(--clr--white);
+    color: white;
     padding: 8px 15px 8px 15px;
     background-color: var(--clr--black);
     border-radius: 5px;
@@ -129,7 +153,7 @@ body {
 }
 
 #teamherotext h1 {
-    font-size: 53px;
+    font-size: var(--clr--53px);
     font-weight: 800;
 
     margin: 0;
@@ -137,7 +161,7 @@ body {
 }
 
 #teamherotext p {
-    font-size: 18px;
+    font-size: var(--clr--18px);
     padding: 0px 0px 20px 0px;
 
     color: var(--clr--gray);
@@ -186,7 +210,7 @@ body {
 
 .marketing-text {
     margin: 8px 0px 0px 0px;
-    font-size: 17px;
+    font-size: var(--clr--18px);
 
     color: var(--clr--gray);
 }
@@ -215,7 +239,7 @@ body {
 .picture-text {
     margin: 0;
     color: var(--clr--lightgray);
-    font-size: 36px;
+    font-size: var(--clr--36px);
     font-weight: 600;
     padding: 5px;
 }
@@ -242,13 +266,13 @@ body {
     margin: 0;
     padding: 2px;
     font-weight: 450;
-    font-size: 16px;
+    font-size: var(--clr--15px);
     color: var(--clr--lightblack);
 }
 
 .people-text {
     margin: 0;
-    font-size: 13px;
+    font-size: var(--clr--13-5px);
     padding: 2px;
     color: var(--clr--lightgray);
 }
@@ -279,7 +303,7 @@ body {
 }
 
 #freeplantext h1 {
-    font-size: 36px;
+    font-size: var(--clr--36px);
     margin: 0;
     color: var(--clr--lightblack);
 }
@@ -331,7 +355,7 @@ body {
 }
 
 #builtfor h1 {
-    font-size: 36px;
+    font-size: var(--clr--36px);
     margin: 0;
     color: var(--clr--lightblack);
 }
@@ -363,7 +387,7 @@ body {
 
 #learnmorecontainer p {
     color: var(--clr--gray);
-    font-size: 18px;
+    font-size: var(--clr--18px);
 }
 
 #learnmorecontainer a {
@@ -385,7 +409,7 @@ body {
 #seewhy {
     text-align: center;
 
-    font-size: 24px;
+    font-size: var(--clr--24px);
 
     margin-top: 100px;
     margin-bottom: 50px;
@@ -409,13 +433,13 @@ body {
 }
 
 #leadercontainer div h1{
-    font-size: 26px;
+    font-size: var(--clr--26px);
     margin: 0px 0px 10px 0px;
     color: var(--clr--lightblack);
 }
 
 #leadercontainer div p{
-    font-size: 18px;
+    font-size: var(--clr--18px);
     margin: 0;
     color: var(--clr--darkgray);
 }
@@ -437,7 +461,7 @@ body {
 }
 
 #procentcontainer h1 {
-    font-size: 53px;
+    font-size: var(--clr--53px);
     color: var(--clr--lighterdarkgray);
     margin: 0;
 }
@@ -470,7 +494,7 @@ body {
 
 #trybarkytoday h1 {
     margin: 0;
-    font-size: 36px;
+    font-size: var(--clr--36px);
     color: var(--clr--lightblack);
 }
 
@@ -519,7 +543,7 @@ footer {
 #footerlogotext {
     margin-top: 50px;
     text-align: left;
-    font-size: 15px;
+    font-size: var(--clr--15px);
 }
 
 #footerlogotext p{
@@ -567,6 +591,7 @@ footer {
     
 #mobilhamburgerimg:hover {
     background-color: var(--clr--white);
+    cursor: pointer;
 }
 
 #mobilvyfix {
@@ -631,7 +656,7 @@ footer {
     }
 
     .picture-text {
-        font-size: 30px;
+        font-size: var(--clr--30px);
     }
 
     /* Free Plan Text Mobil */
