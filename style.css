@@ -712,16 +712,9 @@ footer {
         justify-content: space-between;
     }
 
-    #mobilnavbarky {
+    #mobilnavbarky, #mobilhamburgerimg {
         height: 23px;
         padding: 5px 10px 5px 10px;
-    }
-
-    #mobilhamburgerimg{
-        width: 23px;
-        height: 23px;
-        padding: 5px 10px 5px 10px;
-
         border-radius: 5px;
     }
 
